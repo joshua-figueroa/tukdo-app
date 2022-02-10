@@ -1,4 +1,4 @@
-import { data as sampleData } from "../../data"
+import { data as sampleData } from "../../helpers/data"
 
 import { createSlice } from "@reduxjs/toolkit";
 import _ from "lodash";

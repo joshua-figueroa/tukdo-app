@@ -8,7 +8,7 @@ import Screen from "../../components/Screen/Screen";
 import Section from "../../components/Section/Section";
 import Topic from "../../components/Topic/Topic";
 import { bg, overlayBG, textGray } from "../../config/theme";
-import { data as sampleData } from "../../data";
+import { data as sampleData } from "../../helpers/data";
 import { HomeProps } from "../../model/navigation";
 import { clearAllProgress, selectProgress } from "../../redux/reducers/progress";
 

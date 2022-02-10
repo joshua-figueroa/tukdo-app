@@ -4,10 +4,10 @@ import { Dimensions, ScrollView, StyleSheet, Text, View } from 'react-native';
 import Carousel, { Pagination } from 'react-native-snap-carousel';
 import { useDispatch } from 'react-redux';
 import { bg, fg } from '../../config/theme';
-import LessonList from '../../LessonList';
+import LessonList from '../../helpers/LessonList';
 import { LessonProps } from '../../model/navigation';
 import { addProgress } from '../../redux/reducers/progress';
-import { getData, storeData } from '../../storage';
+import { getData, storeData } from '../../helpers/storage';
 
 type Props = LessonProps
 

@@ -3,7 +3,7 @@ import { View, Text, StyleSheet, ScrollView } from 'react-native';
 import Image from '../../components/Image/Image';
 import Screen from '../../components/Screen/Screen';
 import { fg } from '../../config/theme';
-import { people } from '../../data';
+import { people } from '../../helpers/data';
 
 const About: React.FC<{}> = () => (
     <Screen>

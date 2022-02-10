@@ -1,5 +1,5 @@
-import { Person } from "./model/person";
-import { Section } from "./model/section";
+import { Person } from "../model/person";
+import { Section } from "../model/section";
 
 const data: Section[] =
     [

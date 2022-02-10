@@ -1,12 +1,12 @@
 import React, { useCallback, useState } from 'react';
 import { ActivityIndicator, Alert, StyleSheet, View } from 'react-native';
-import Math, { BigMathText, SmallMathText } from "./components/Math/Math"
+import Math, { BigMathText, SmallMathText } from "../components/Math/Math"
 import { Table, Rows, Row } from 'react-native-table-component';
-import { BigText, SmallText, Strong, Italic, MidText, NormalText } from './components/Text/Text';
+import { BigText, SmallText, Strong, Italic, MidText, NormalText } from '../components/Text/Text';
 import YoutubePlayer from "react-native-youtube-iframe";
-import Practice from './components/Practice/Practice';
+import Practice from '../components/Practice/Practice';
 import { Image } from 'react-native-elements';
-import { bg, fg } from './config/theme';
+import { bg, fg } from '../config/theme';
 
 type Prop = {
     id: string,

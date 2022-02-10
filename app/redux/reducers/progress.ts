@@ -1,7 +1,7 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 import _, { get } from "lodash";
-import { data as sampleData } from "../../data"
-import { getData } from "../../storage";
+import { data as sampleData } from "../../helpers/data"
+import { getData } from "../../helpers/storage";
 import { AppThunk, RootState } from "../store";
 
 type Progress = {
