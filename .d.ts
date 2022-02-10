@@ -1,0 +1,1 @@
+declare module '@ja-ka/react-native-fade-in-flatlist'
